@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FRosario.Bottles.App
+namespace FRosario.Bottles.Application
 {
 	class MainClass
 	{
@@ -14,13 +14,13 @@ namespace FRosario.Bottles.App
 
 			bool parseSuccess = int.TryParse(input, out numBottles);
 
-			if (parseSuccess == false || numBottles < 1)
+			if (parseSuccess == false || numBottles < Domain.BottlesSong.MinNumberOfBottles)
 			{
-				throw new ArgumentOutOfRangeException(nameof(numBottles), "Number of bottles must be a valid integer that is 1 or greater");
+				throw new ArgumentOutOfRangeException(nameof(numBottles), $"Number of bottles must be a valid integer that is {Domain.BottlesSong.MinNumberOfBottles} or greater");
 			}
 			else
 			{
-				Console.WriteLine($"{nameof(numBottles)} = {numBottles}");
+				Console.WriteLine($"{nameof(numBottles)} = {numBottles}\n\n");
 			}
 
 			var song = new Domain.BottlesSong(numBottles);
