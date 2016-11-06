@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRosario.99Bottles.Application", "FRosario.99Bottles.Application\FRosario.99Bottles.Application.csproj", "{B60B7D72-041C-496D-B313-F2F76DE3F1A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRosario.99Bottles.Domain", "FRosario.99Bottles.Domain\FRosario.99Bottles.Domain.csproj", "{DAD1FDEC-03F0-47E0-8796-0B08855BAF9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{B60B7D72-041C-496D-B313-F2F76DE3F1A1}.Debug|x86.Build.0 = Debug|x86
 		{B60B7D72-041C-496D-B313-F2F76DE3F1A1}.Release|x86.ActiveCfg = Release|x86
 		{B60B7D72-041C-496D-B313-F2F76DE3F1A1}.Release|x86.Build.0 = Release|x86
+		{DAD1FDEC-03F0-47E0-8796-0B08855BAF9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAD1FDEC-03F0-47E0-8796-0B08855BAF9D}.Debug|x86.Build.0 = Debug|Any CPU
+		{DAD1FDEC-03F0-47E0-8796-0B08855BAF9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAD1FDEC-03F0-47E0-8796-0B08855BAF9D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

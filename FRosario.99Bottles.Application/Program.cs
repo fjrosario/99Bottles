@@ -14,14 +14,18 @@ namespace FRosario.Bottles.App
 
 			bool parseSuccess = int.TryParse(input, out numBottles);
 
-			if (parseSuccess == false || numBottles < 0)
+			if (parseSuccess == false || numBottles < 1)
 			{
-				throw new ArgumentOutOfRangeException(nameof(numBottles), "Number of bottles must be a valid integer that is 0 or greater");
+				throw new ArgumentOutOfRangeException(nameof(numBottles), "Number of bottles must be a valid integer that is 1 or greater");
 			}
 			else
 			{
 				Console.WriteLine($"{nameof(numBottles)} = {numBottles}");
 			}
+
+			var song = new Domain.BottlesSong(numBottles);
+
+			Console.WriteLine(song.GetSong());
 
 
 			Console.ReadKey();
