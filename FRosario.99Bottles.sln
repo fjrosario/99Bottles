@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRosario.99Bottles.App", "FRosario.99Bottles.App\FRosario.99Bottles.App.csproj", "{B60B7D72-041C-496D-B313-F2F76DE3F1A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRosario.99Bottles.Application", "FRosario.99Bottles.Application\FRosario.99Bottles.Application.csproj", "{B60B7D72-041C-496D-B313-F2F76DE3F1A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
